@@ -1,0 +1,259 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:,400,700,900&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background: #f5f5f5;
+}
+.container {
+	margin: 0px auto;
+	width: 1440px;
+	font-size: 0;
+	padding: 110px 210px 0px 210px;
+	background: url("../img/blob2.png") 100% 180% no-repeat;
+}
+.overline__header {
+	margin: 0px 0px 33px 0px;
+}
+.icon {
+	margin: -2px 16px 0px 0px;
+}
+.overline {
+	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5d62b5;
+}
+.header__perspiciatis {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+	margin: 0px 0px 78px 0px;
+}
+.cart__block {
+	display: inline-block;
+}
+.cart__heading {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #f2726f;
+	margin: 0px 0px 20px 0px;
+}
+.cart__icon {
+	margin: 0px 0px 33px 0px;
+}
+.cart__text {
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+.cart1,
+.cart2,
+.cart3,
+.cart4,
+.cart5,
+.cart6 {
+	width: 324px;
+	margin: 0px 24px 24px 0px;
+	text-align: center;
+	padding: 50px 44px 50px 43px;
+	background: #ffffff;
+	border-radius: 20px;
+}
+.cart3,
+.cart6 {
+	margin: 0px;
+}
+.cart2 {
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+}
+.cart1:hover,
+.cart3:hover,
+.cart4:hover,
+.cart5:hover,
+.cart6:hover {
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+}
+.main__content {
+	margin: 0px 0px 42px 0px;
+}
+.firstblock__button {
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.button {
+	display: inline-block;
+	padding: 18px 23px 18px 23px;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	border-radius: 8px;
+	color: #ffffff;
+	background: #f2726f;
+}
+.button:hover {
+	background: #f75a57;
+	box-shadow: #4b4b4b 0px 0px 10px 1px;
+}
+.block2 {
+	width: 1440px;
+	padding: 0px 0px 0px 210px;
+	margin: 0px auto;
+}
+.block2__cart {
+	display: inline-block;
+	width: 352px;
+	vertical-align: top;
+	margin: 0px 24px 0px 0px;
+}
+.block2__carticon {
+	display: inline-block;
+	margin: 0px 23px 0px 0px;
+	vertical-align: top;
+}
+.cart__description {
+	width: 231px;
+	display: inline-block;
+	vertical-align: top;
+}
+.block2__carts .block2__cart:last-child {
+	margin: 0px;
+}
+.block2__cart:hover {
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+}
+.block2__carts {
+	margin: 0px 0px 100px 0px;
+}
+.block3 {
+	margin: 0px auto;
+	width: 1440px;
+	padding: 112px 0px 134px 210px;
+	background: #29c3be url("../img/blob3.png") 85% 0 no-repeat;
+}
+.block3__header {
+	margin: 0px 0px 80px 0px;
+}
+.block3__overline {
+	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 0px 0px 32px 0px;
+}
+.header__impact {
+	display: inline-block;
+	max-width: 411px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+	margin: 0px 111px 0px 0px;
+}
+.block3__img {
+	vertical-align: top;
+	display: inline-block;
+	margin: -250px 0px 0px 0px;
+}
+.dog__img {
+	border-radius: 40px;
+}
+.block3__cart {
+	display: inline-block;
+	width: 237px;
+}
+.block3__carticon1 {
+	display: inline-block;
+	margin: 0px 11px 0px 0px;
+}
+.block3__cartdescription {
+	display: inline-block;
+	vertical-align: top;
+	margin: 8px 0px 0px 0px;
+}
+.block3__cartheading {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+}
+.block3__carttext {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5d62b5;
+}
+.block3__carts .block3__cart:not(:last-child) {
+	margin: 0px 23px 0px 0px;
+}
